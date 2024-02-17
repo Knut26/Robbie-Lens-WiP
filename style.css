@@ -1,0 +1,76 @@
+a {
+    font-family: manrope;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: montserrat;
+    font-size: 3.5em;
+    color: #A5B4FC;
+}
+
+h2 {
+    font-family: manrope;
+    color: white;
+}
+
+p {
+    font-family: manrope;
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+
+.mot1,
+.mot2 {
+    font-style: normal;
+    color: #A5B4FC;
+}
+
+ul {
+    font-family: manrope;
+    font-size: 1em;
+    color: #F9F8FF;
+}
+
+div {
+    background-color: white;
+}
+
+body {
+    background-color: #1F2039;
+}
+
+.lien_en_tete,
+.lien_pied_de_page {
+    color: #242424;
+}
+
+.lien_en_tete:hover,
+.lien_pied_de_page:hover {
+    opacity: 0.5;
+}
+
+.projet {
+    font-family: manrope;
+    color: white;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+}
+
+.projet:hover {
+    background: linear-gradient(#696484, #8788BA)
+}
+
+.centre {
+    border-right: 1px solid;
+    color: #8e86b5;
+    border-bottom: 1px solid;
+    color: #8e86b5;
+    background-color: #1F2039;
+}
