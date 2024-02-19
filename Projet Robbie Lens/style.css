@@ -25,26 +25,28 @@ h1 {
 }
 
 h2 {
-    color: #f9f8ff;
+    color: beige;
 }
 
 p,
 li {
     font-size: 1.1em;
-    color: #f9f8ff;
+    color: beige;
 }
 
 header,
 footer {
-    background-color: white;
+    background-color: beige;
     padding: 20px 50px;
 }
 
 .cta {
+    display: inline-block;
     background: linear-gradient(#8e86b5, #acaeed);
-    color: white;
+    color: beige;
     border-radius: 50px;
     padding: 20px 30px;
+    margin: 30px;
 }
 
 a:hover {
@@ -54,6 +56,10 @@ a:hover {
 .cta:hover {
     background: linear-gradient(#696484, #8788ba);
     text-decoration: none;
+}
+
+.lien-icone {
+    margin-left: 30px;
 }
 
 .lien-icone:hover {
@@ -76,11 +82,6 @@ a:hover {
 
 section {
     padding: 80px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
 }
 
 .a-propos-main {
@@ -88,50 +89,62 @@ section {
     margin: auto;
 }
 
+footer,
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
-.dernier_projet {
-    display: flex;
-    justify-content: space-around;
-    row-gap: 30px;
-    flex-wrap: wrap;
+nav a {
+    margin-left: 30px;
 }
 
-.img1_2_3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+.accueil-photos {
+    background-color: beige;
+    padding: 80px;
 }
 
-.img4_5_6 {
+.accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.accueil-photos div {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
     justify-content: center;
-    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: auto;
 }
 
 .portfolio-section-photos {
-    background-color: white;
+    background-color: beige;
 }
 
 .portfolio-section-photos h2 {
     color: #242424;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
-.grid-paysages {
+.grid_paysages {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px;
     gap: 15px;
 }
 
-.grid-portraits {
+.grid_portraits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
@@ -140,7 +153,60 @@ nav {
 
 .grid-paysages img,
 .grid-portraits img {
-    width: 100px;
-    height: 100PX;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.img1_2_3,
+.img4_5_6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: beige;
+    margin-top: 30px;
+}
+
+.photo_Robbie {
+    display: flex;
+    justify-content: flex-end;
+    margin: 60px;
+}
+
+.paysage1,
+.paysage2,
+.paysage3,
+.paysage4,
+.paysage5,
+.paysage6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.portrait1,
+.portrait2,
+.portrait3,
+.portrait4,
+.portrait5,
+.portrait6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
