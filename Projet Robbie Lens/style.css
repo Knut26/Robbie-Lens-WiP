@@ -5,6 +5,7 @@ a {
 .professionalisme,
 .passion {
     color: #A5B4FC;
+    font-style: normal;
 }
 
 h1 {
@@ -50,4 +51,16 @@ body,
 .liens-en-tete,
 .liens-pied-de-page {
     color: #242424;
+}
+
+.projet {
+    border-radius: 50px;
+    background-color: #A5B4FC;
+    font-family: montserrat;
+    font-style: normal;
+}
+
+.corps {
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
 }
