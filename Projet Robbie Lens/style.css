@@ -1,212 +1,53 @@
-* {
-    margin: 0;
-}
-
-body {
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
-    background-color: #1f2039;
-}
-
 a {
-    color: #242424;
-    text-decoration: none;
+    color: black;
 }
 
-em {
-    color: #a5b4fc;
-    font-style: normal;
+.professionalisme,
+.passion {
+    color: #A5B4FC;
 }
 
 h1 {
+    color: #A5B4FC;
     font-size: 3.5em;
-    color: #a5b4fc;
-    font-family: 'Montserrat', sans-serif;
+    color: #A5B4FC;
+    font-family: montserrat;
 }
 
 h2 {
-    color: beige;
+    font-family: montserrat;
+    color: #F9F8FF;
+
 }
 
-p,
-li {
+p {
     font-size: 1.1em;
-    color: beige;
+    font-family: manrope;
+    color: #F9F8FF;
 }
 
-header,
-footer {
-    background-color: beige;
-    padding: 20px 50px;
+ul {
+    font-size: 1em;
+    font-family: manrope;
+    color: #F9F8FF;
 }
 
-.cta {
-    display: inline-block;
-    background: linear-gradient(#8e86b5, #acaeed);
-    color: beige;
-    border-radius: 50px;
-    padding: 20px 30px;
-    margin: 30px;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.cta:hover {
-    background: linear-gradient(#696484, #8788ba);
+a {
     text-decoration: none;
+    font-size: 1em;
+    font-family: manrope;
 }
 
-.lien-icone {
-    margin-left: 30px;
+div {
+    background-color: white;
 }
 
-.lien-icone:hover {
-    opacity: 0.5;
+body,
+.corps {
+    background-color: #1F2039;
 }
 
-.carre-contenu {
-    border-right: 1px solid #8e86b5;
-    border-bottom: 1px solid #8e86b5;
-    padding: 50px;
-}
-
-.carre-contenu h2 {
-    margin-top: 30px;
-}
-
-.carre-contenu ul {
-    margin-top: 30px;
-}
-
-section {
-    padding: 80px;
-}
-
-.a-propos-main {
-    width: 50%;
-    margin: auto;
-}
-
-footer,
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav a {
-    margin-left: 30px;
-}
-
-.accueil-photos {
-    background-color: beige;
-    padding: 80px;
-}
-
-.accueil-photos h2 {
+.liens-en-tete,
+.liens-pied-de-page {
     color: #242424;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.accueil-photos div {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-.accueil-introduction {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
-    margin: auto;
-}
-
-.portfolio-section-photos {
-    background-color: beige;
-}
-
-.portfolio-section-photos h2 {
-    color: #242424;
-    margin-bottom: 50px;
-}
-
-.grid_paysages {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
-    gap: 15px;
-}
-
-.grid_portraits {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    gap: 15px;
-}
-
-.grid-paysages img,
-.grid-portraits img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.img1_2_3,
-.img4_5_6 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    padding: 15px;
-    background-color: beige;
-    margin-top: 30px;
-}
-
-.photo_Robbie {
-    display: flex;
-    justify-content: flex-end;
-    margin: 60px;
-}
-
-.paysage1,
-.paysage2,
-.paysage3,
-.paysage4,
-.paysage5,
-.paysage6 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    padding: 15px;
-}
-
-.portrait1,
-.portrait2,
-.portrait3,
-.portrait4,
-.portrait5,
-.portrait6 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    padding: 15px;
-}
-
-.section1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
