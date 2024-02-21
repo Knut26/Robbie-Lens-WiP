@@ -2,6 +2,11 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+
+}
+
 .professionalisme,
 .passion {
     color: #A5B4FC;
@@ -18,6 +23,7 @@ h1 {
 h2 {
     font-family: montserrat;
     color: #F9F8FF;
+    padding-top: 30px;
 
 }
 
@@ -31,6 +37,7 @@ ul {
     font-size: 1em;
     font-family: manrope;
     color: #F9F8FF;
+    padding-top: 30px;
 }
 
 a {
@@ -53,14 +60,39 @@ body,
     color: #242424;
 }
 
-.projet {
+.logo:hover {
+    opacity: 0.5;
+}
+
+.cta {
     border-radius: 50px;
     background-color: #A5B4FC;
     font-family: montserrat;
     font-style: normal;
 }
 
+.cta:hover {
+    background: linear-gradient(#696484, #8788BA);
+}
+
 .corps {
     border-bottom: 1px #8e86b5 solid;
     border-right: 1px #8e86b5 solid;
+    padding: 50px;
+}
+
+* {
+    margin: 0;
+}
+
+header,
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section {
+    padding: 80px;
 }
