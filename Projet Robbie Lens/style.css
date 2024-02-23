@@ -141,10 +141,16 @@ section {
 .box {
     width: 300px;
     height: 300px;
+
+}
+
+.box1 {
+    padding: 15px;
+    width: 250px;
+    height: 300px;
 }
 
 .paysages {
-    padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px;
@@ -156,7 +162,7 @@ section {
     padding-left: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     gap: 15px;
     object-fit: cover;
 }
